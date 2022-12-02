@@ -61001,7 +61001,7 @@ mm.add("(max-width: 500px)", function () {
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-title", {
-        y: -150,
+        y: -90,
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
@@ -61071,6 +61071,9 @@ mm.add("(max-width: 500px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 0,
         duration: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
+        opacity: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(25%,0)",
@@ -61168,6 +61171,9 @@ mm.add("(max-width: 500px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 1,
         duration: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(0,0)",
@@ -61282,6 +61288,9 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
         opacity: 0
       });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
+        opacity: 1
+      });
       counter = 5;
     }
   };
@@ -61374,6 +61383,9 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 1,
         duration: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "none",
@@ -61593,6 +61605,9 @@ mm.add("(min-width: 913px", function () {
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
         opacity: 0,
         duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "none",
