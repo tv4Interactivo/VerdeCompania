@@ -182,6 +182,31 @@ p{
     flex-direction: column;
 }
 
+.final{
+    position: absolute;
+    display: flex;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #23965b93;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.back-final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.final h2{
+    font-size: 2rem;
+}
+
 .img-logo{
     position: absolute;
     bottom: 10px;

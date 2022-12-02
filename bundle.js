@@ -61046,10 +61046,6 @@ mm.add("(max-width: 500px)", function () {
       //anturio
       moveCamera(3.58, 3.14, 4.85);
       rotateCamera(-1.61, -1.37, -1.61);
-      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
-        opacity: 0,
-        duration: 2
-      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "none",
         opacity: 0,
@@ -61060,11 +61056,27 @@ mm.add("(max-width: 500px)", function () {
         opacity: 1,
         duration: 1
       });
+      counter = 4;
+    } else if (counter == 4) {
+      //final
+      moveCamera(-6.3, 4.4, 4.5);
+      rotateCamera(-0.2, -0.9, -0.2);
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
+        opacity: 1,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
+        opacity: 0
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
+        opacity: 0,
+        duration: 2
+      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(25%,0)",
         duration: 2
       });
-      counter = 4;
+      counter = 5;
     }
   };
 
@@ -61131,10 +61143,6 @@ mm.add("(max-width: 500px)", function () {
       //helecho
       moveCamera(2.74, 3.80, 1.71);
       rotateCamera(-2.93, -1.54, -2.93);
-      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
-        opacity: 1,
-        duration: 2
-      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "flex",
         opacity: 1,
@@ -61145,19 +61153,44 @@ mm.add("(max-width: 500px)", function () {
         opacity: 0,
         duration: 1
       });
+      counter = 3;
+    } else if (counter == 5) {
+      //anturio
+      moveCamera(3.58, 3.14, 4.85);
+      rotateCamera(-1.61, -1.37, -1.61);
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
+        opacity: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
+        opacity: 1,
+        duration: 2
+      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(0,0)",
         duration: 2
       });
-      counter = 3;
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
+        display: "none",
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-anturio", {
+        display: "flex",
+        opacity: 1,
+        duration: 1
+      });
+      counter = 4;
     }
   };
 });
 mm.add("(min-width: 501px) and (max-width: 912px)", function () {
   btn_next.onclick = function () {
     if (counter == 0) {
-      console.log("click"); //moises
-
+      //moises
       moveCamera(-2.02, 4.75, -3.48);
       rotateCamera(-0.38, 0, 0);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".title", {
@@ -61219,10 +61252,6 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       //anturio
       moveCamera(3.58, 3.14, 4.85);
       rotateCamera(-1.61, -1.37, -1.61);
-      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
-        opacity: 0,
-        duration: 2
-      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "none",
         opacity: 0,
@@ -61233,11 +61262,27 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         opacity: 1,
         duration: 1
       });
+      counter = 4;
+    } else if (counter == 4) {
+      //final
+      moveCamera(-6.3, 4.4, 4.5);
+      rotateCamera(-0.2, -0.9, -0.2);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(25%,0)",
         duration: 2
       });
-      counter = 4;
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
+        opacity: 0,
+        duration: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
+        opacity: 1,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
+        opacity: 0
+      });
+      counter = 5;
     }
   };
 
@@ -61304,10 +61349,6 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       //helecho
       moveCamera(2.74, 3.80, 1.71);
       rotateCamera(-2.93, -1.54, -2.93);
-      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
-        opacity: 1,
-        duration: 2
-      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "flex",
         opacity: 1,
@@ -61318,11 +61359,37 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
         opacity: 0,
         duration: 1
       });
+      counter = 3;
+    } else if (counter == 5) {
+      //anturio
+      moveCamera(3.58, 3.14, 4.85);
+      rotateCamera(-1.61, -1.37, -1.61);
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
+        opacity: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
+        opacity: 1,
+        duration: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
+        display: "none",
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-anturio", {
+        display: "flex",
+        opacity: 1,
+        duration: 1
+      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(0,0)",
         duration: 2
       });
-      counter = 3;
+      counter = 4;
     }
   };
 });
@@ -61391,9 +61458,31 @@ mm.add("(min-width: 913px", function () {
       //anturio
       moveCamera(3.95, 3.23, 4.74);
       rotateCamera(-1.68, -1.19, -1.69);
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
+        display: "none",
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-anturio", {
+        display: "flex",
+        opacity: 1,
+        duration: 1
+      });
+      counter = 4;
+    } else if (counter == 4) {
+      //final
+      moveCamera(-6.3, 4.4, 4.5);
+      rotateCamera(-0.2, -0.9, -0.2);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 0,
         duration: 2
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
+        opacity: 1,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "none",
@@ -61409,7 +61498,10 @@ mm.add("(min-width: 913px", function () {
         "transform": "translate(25%,0)",
         duration: 2
       });
-      counter = 4;
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
+        opacity: 1
+      });
+      counter = 5;
     }
   };
 
@@ -61490,11 +61582,33 @@ mm.add("(min-width: 913px", function () {
         opacity: 0,
         duration: 1
       });
+      counter = 3;
+    } else if (counter == 5) {
+      //anturio
+      moveCamera(3.95, 3.23, 4.74);
+      rotateCamera(-1.68, -1.19, -1.69);
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
+        opacity: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
+        display: "none",
+        opacity: 0,
+        duration: 1
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-anturio", {
+        display: "flex",
+        opacity: 1,
+        duration: 1
+      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".nav-buttons", {
         "transform": "translate(0,0)",
         duration: 2
       });
-      counter = 3;
+      counter = 4;
     }
   };
 });
