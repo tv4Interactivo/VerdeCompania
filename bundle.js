@@ -60998,7 +60998,8 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_prev", {
         opacity: 1,
-        duration: 2
+        duration: 2,
+        "pointer-events": "auto"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-title", {
         y: -90,
@@ -61070,7 +61071,8 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 0,
-        duration: 2
+        duration: 2,
+        "pointer-events": "none"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
         opacity: 1
@@ -61090,11 +61092,11 @@ mm.add("(max-width: 500px)", function () {
       rotateCamera(-0.2, -0.9, -0.2);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_prev", {
         opacity: 0,
-        duration: 2
+        duration: 2,
+        "pointer-events": "none"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
-        opacity: 0,
-        duration: 0.5
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".title", {
         opacity: 1,
@@ -61170,7 +61172,8 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 1,
-        duration: 2
+        duration: 2,
+        "pointer-events": "auto"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
         opacity: 0
@@ -61210,7 +61213,8 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_prev", {
         opacity: 1,
-        duration: 2
+        duration: 2,
+        "pointer-events": "auto"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-title", {
         y: -150,
@@ -61279,7 +61283,8 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 0,
-        duration: 2
+        duration: 2,
+        "pointer-events": "none"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
         opacity: 1,
@@ -61302,11 +61307,11 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       rotateCamera(-0.2, -0.9, -0.2);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_prev", {
         opacity: 0,
-        duration: 2
+        duration: 2,
+        "pointer-events": "none"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
-        opacity: 0,
-        duration: 0.5
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".title", {
         opacity: 1,
@@ -61382,7 +61387,8 @@ mm.add("(min-width: 501px) and (max-width: 912px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 1,
-        duration: 2
+        duration: 2,
+        "pointer-events": "auto"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
         opacity: 0
@@ -61422,7 +61428,8 @@ mm.add("(min-width: 913px", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_prev", {
         opacity: 1,
-        duration: 2
+        duration: 2,
+        "pointer-events": "auto"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-title", {
         y: -150,
@@ -61487,7 +61494,8 @@ mm.add("(min-width: 913px", function () {
       rotateCamera(-0.2, -0.9, -0.2);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
         opacity: 0,
-        duration: 2
+        duration: 2,
+        "pointer-events": "none"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".final", {
         opacity: 1,
@@ -61524,11 +61532,11 @@ mm.add("(min-width: 913px", function () {
       rotateCamera(-0.2, -0.9, -0.2);
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_prev", {
         opacity: 0,
-        duration: 2
+        duration: 2,
+        "pointer-events": "none"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".text-container", {
-        opacity: 0,
-        duration: 0.5
+        opacity: 0
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".title", {
         opacity: 1,
@@ -61580,10 +61588,6 @@ mm.add("(min-width: 913px", function () {
       //helecho
       moveCamera(3.19, 2.79, 1.70);
       rotateCamera(-0.55, -1.09, -0.50);
-      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
-        opacity: 1,
-        duration: 2
-      });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "flex",
         opacity: 1,
@@ -61608,6 +61612,11 @@ mm.add("(min-width: 913px", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".img-logo", {
         opacity: 0
+      });
+      gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".b_next", {
+        opacity: 1,
+        duration: 2,
+        "pointer-events": "auto"
       });
       gsap__WEBPACK_IMPORTED_MODULE_3__.gsap.to(".back-helecho", {
         display: "none",
